@@ -1,1 +1,32 @@
 /* Write your code here: */
+
+/* Update the h1 and h2 text to blueviolet using groups */
+
+/* Use the child selector to update the 1st paragraph color to firebrick */
+
+/* Use the descendant selector to color the list item elements blue */
+
+/* Use chaining to color the 2nd and 3rd list items seagreen */
+
+/* Update "Other items" to 0.5 rem */
+
+h1, h2 {
+  color: blueviolet;
+}
+
+.box > p {
+  color: firebrick;
+}
+
+.box ul li {
+  color: blue;
+}
+
+/* My solution */
+.box li.done  {
+    color: seagreen;
+}
+
+ul p.done {
+  font-size: 0.5rem;
+}
